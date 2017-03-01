@@ -1,0 +1,55 @@
+body, div {
+  background-color: #D8D8D8;
+  color: #808080;
+  font-family: Roboto,sans-serif;
+	margin: auto;
+	padding: 20px;
+}
+
+.md-title {
+  font-weight: 700;
+}
+
+md-nav-item {
+  color: #3A589E;
+	padding-right: 15px;
+
+	a.active { 
+		color: green; 
+		font-weight: 500;
+	}
+}
+
+ui-view {
+	margin: auto;
+	padding-left: 15px;
+
+  holiday > div {
+    padding: 10px;
+  }
+}
+
+md-button, .md-button {
+  padding: 0 6px 0 6px;
+  margin: 6px 8px 6px 8px;
+  min-width: 88px;
+  border-radius: 3px;
+  font-size: 14px;
+  text-align: center;
+  text-transform: uppercase;
+  text-decoration:none;
+  border: 1px solid #0D82DF;
+  background: #0D82DF;
+  background:linear-gradient(#3A589E, #0D82DF);
+  background:-moz-linear-gradient(#3A589E, #0D82DF);
+  background:-webkit-linear-gradient(#3A589E, #0D82DF);
+  color: #fff; 
+  outline: none;
+}
+
+md-button:hover, .md-button:hover {
+	cursor: pointer;
+	background:linear-gradient(#0D82DF, #3A589E);
+  	background:-moz-linear-gradient(#0D82DF, #3A589E);
+  	background:-webkit-linear-gradient(#0D82DF, #3A589E);
+}
