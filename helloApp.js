@@ -44,3 +44,4 @@ myApp.config(function($stateProvider) {
     $stateProvider.state(state);
   });
 });
+
